@@ -8,7 +8,7 @@ import {
 } from "reactstrap";
 import axios from 'axios';
 // import './App.css';
-import { useAxios } from './useAxios';
+
 
 class App extends React.Component {
   constructor() {
