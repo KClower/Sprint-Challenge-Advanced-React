@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import {
   Card,
   CardHeader,
@@ -6,9 +7,9 @@ import {
   CardBody,
   CardText,
 } from "reactstrap";
-import axios from 'axios';
-// import './App.css';
-import { useAxios } from './useAxios';
+
+
+
 
 class App extends React.Component {
   constructor() {
