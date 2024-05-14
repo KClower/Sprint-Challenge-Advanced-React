@@ -8,10 +8,16 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
+    "msw": "^2.3.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-scripts": "^5.0.1",
     "reactstrap": "^9.2.2"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!axios)/"
+    ]
   },
   "scripts": {
     "start": "react-scripts start",

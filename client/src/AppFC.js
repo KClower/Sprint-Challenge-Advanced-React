@@ -6,7 +6,7 @@ import {
     CardBody,
     CardText,
 } from "reactstrap";
-import axios from 'axios';
+
 import { useFifaPlayers } from "./useFifaPlayers";
 
 export default function AppFC() {
